@@ -1,0 +1,18 @@
+name: ConflictArbitrationEnv
+version: 1.0.0
+description: Broken Telephone Arena — Three agents, one task, one conflict, one arbitrator.
+entrypoint: server.app:app
+host: 0.0.0.0
+port: 7860
+endpoints:
+  reset: /reset
+  step: /step
+  state: /state
+  health: /health
+action_schema:
+  conflict_detected: bool
+  action: str
+  reason: str
+  correction_request: str
+team: WooshiWooshi
+hackathon: Meta PyTorch OpenEnv Hackathon — April 2026

@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+.env
+checkpoints/
+frozen_baseline/
+transcripts/
+.DS_Store

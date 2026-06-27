@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+pydantic
+gradio
+matplotlib
+torch
+transformers
+trl
+unsloth
+huggingface_hub
+accelerate
+bitsandbytes
+peft
+datasets
+openenv
